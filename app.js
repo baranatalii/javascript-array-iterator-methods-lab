@@ -224,7 +224,7 @@ Hint: Use the String.prototype.split() method to separate the first and last
 
 let firstLast = people.map((person) => {
   const [last, first] = person.split(",");
-  return `$(first) $(last)`;
+  return `${first} ${last}`;
 });
 
 // Complete the exercise in the space below:
@@ -273,3 +273,4 @@ console.log("Exercise 5 correct result: ", [
   "Tony Blair",
   "William Blake",
 ]);
+
